@@ -1,0 +1,29 @@
+{
+  "name": "dev-webpack-setup",
+  "version": "1.0.0",
+  "description": "johnmccuk@gmail.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "./node_modules/.bin/webpack --watch",
+    "build": "./node_modules/.bin/webpack -d",
+    "server": "webpack-dev-server --devtool eval --inline --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnmccuk/dev-webpack-setup.git"
+  },
+  "author": "john mccracken",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnmccuk/dev-webpack-setup/issues"
+  },
+  "homepage": "https://github.com/johnmccuk/dev-webpack-setup#readme",
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.8",
+    "babel-preset-es2015": "^6.18.0",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
